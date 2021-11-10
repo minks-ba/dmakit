@@ -418,6 +418,10 @@ footer {
 
 @media (max-width: 420px) {
 
+    .nav-item {
+        margin: 0 .6em;
+    }
+
     .mobile-view {
         align-items: center;
     }
