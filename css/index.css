@@ -387,6 +387,12 @@ footer {
     text-decoration: underline;
 }
 
+.footer-list:hover {
+    cursor: pointer;
+    color: #555;
+    text-decoration: underline;
+}
+
 @media (max-width: 1250px) {
 
     .header{
