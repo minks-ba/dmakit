@@ -205,6 +205,7 @@ img {
 .shop-now {
     font-size: .8rem;
     color:#2A4F48;
+    font-weight: 450;
 }
 
 .category-img {
@@ -228,6 +229,7 @@ img {
 .category-title {
     font-size: 1.2rem;
     color: #FFF;
+    letter-spacing: .1em;
     text-transform: capitalize;
 }
 
@@ -242,7 +244,8 @@ img {
 
 .category-list {
     font-size: .8rem;
-    color: #000;
+    color: #2A2A2A;
+    font-weight: 450;
     line-height: 2em;
     text-transform: capitalize; 
     border-right: 1px solid #CCCCCC;
@@ -274,7 +277,7 @@ img {
 
 .pro-title {
     font-size: 14px;
-    color: #000;
+    color: #2A2A2A;
     margin-top: .5em;
 }
 
