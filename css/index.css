@@ -92,6 +92,7 @@ a {
     list-style: none;
     margin: 0 .8em;
     text-transform: capitalize;
+    font-weight: 500;
 }
 
 .home, .electronic, .clothing, .automobile,
@@ -178,7 +179,7 @@ img {
 }
 
 .img-con p {
-    font-size: 1em;
+    font-size: .9rem;
     text-align: center;
     margin: 1em 0;
 }
@@ -241,7 +242,7 @@ img {
 .category-list {
     font-size: .8rem;
     color: #2A2A2A;
-    font-weight: 450;
+    font-weight: 500;
     line-height: 2em;
     text-transform: capitalize; 
     border-right: 1px solid #CCCCCC;
@@ -271,7 +272,8 @@ img {
 }
 
 .pro-title {
-    font-size: 14px;
+    font-size: .9rem;
+    font-weight: 500;
     color: #2A2A2A;
     margin-top: .5em;
 }
@@ -283,16 +285,11 @@ img {
     opacity: 80%;
 }
 
-.pro-status {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 1em;
-}
-
 .pro-price {
     color: #000;
     padding-bottom: 1em;
     margin-top: .5rem;
+    font-weight: 500;
 }
 
 /*---Electronic Category End---*/
@@ -405,12 +402,6 @@ footer {
     .category-img {
         height: 200px;
         width: 320px;
-    }
-
-    .img-con p {
-        font-size: 12px;
-        text-align: center;
-        margin-top: .5em;
     }
 }
 
