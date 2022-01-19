@@ -406,11 +406,6 @@ footer {
         gap: 15px;
     }
 
-    .col-2 h2 {
-        font-size: 2rem;
-        margin-bottom: 1em;
-    }
-
     .category-img {
         height: 200px;
         width: 320px;
@@ -431,6 +426,10 @@ footer {
 
     .mobile-view {
         align-items: center;
+    }
+
+    .col-2 h2 {
+        font-size: 2rem;
     }
 
     .product-wrapper {
