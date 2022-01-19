@@ -105,7 +105,7 @@ a {
 
 
 .hero-wrapper {
-    padding-bottom: .5em;
+    padding: .5em 0;
     background-color: #F6F6F6;
 }
 
@@ -124,7 +124,7 @@ a {
 }
 
 .col-2 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 1em;
 }
 
@@ -229,8 +229,8 @@ img {
 .category-title {
     font-size: 1.2rem;
     color: #FFF;
-    letter-spacing: .1em;
     text-transform: capitalize;
+    letter-spacing: .1em;
 }
 
 .category-wrapper {
@@ -270,9 +270,8 @@ img {
 }
 
 .pro-img {
-    margin: auto;
     height: 200px;
-    width: 260px;
+    width: 100%;
 }
 
 .pro-title {
@@ -427,6 +426,14 @@ footer {
 
     .mobile-view {
         align-items: center;
+    }
+
+    .product-wrapper {
+        width: 100%;
+    }
+
+    .product-item {
+        width: 100%;
     }
 
     .small-container, .flex-container,
