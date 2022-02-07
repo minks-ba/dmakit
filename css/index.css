@@ -424,6 +424,10 @@ footer {
         font-size: 2.2rem;
     }
 
+    .col-4 {
+        flex-basis: 23%;
+    }
+
     .category-container {
         width: 15%;
         display: inline;
