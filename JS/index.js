@@ -1,9 +1,12 @@
-let categoryHeader = document.querySelector(".category-header")
-let categoryContainer = document.querySelector(".category-container");
+const mobileView = document.querySelector(".mobile-view")
+
+function display() {
+    mobileView.classList.toggle("active")
+}
 
 
 
 
-console.log(categoryContainer)
+
 
 

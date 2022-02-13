@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     background: radial-gradient(#F6F6F6, #FFF);
 }
 
@@ -65,10 +66,12 @@ a {
     border-bottom-right-radius: 3px;
 }
 
+/*
 .nav-content,
 .small-container {
     font-family: 'Poppins', sans-serif;
 }
+*/
 
 .nav-content {
     display: flex;
@@ -216,8 +219,13 @@ img {
 /*---Electronic Category Start---*/
 
 .category-bg {
-    background-color: #2a4f48be;
     margin-bottom: 1em;
+    background-color: #607C76;
+}
+
+.mobile-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .category-title {
@@ -228,22 +236,53 @@ img {
     padding: .5em 0;
 }
 
-.category-wrapper {
-    display: flex;
-    margin: 2em 0;
+.mobile-menu {
+    font-size: 1.8rem;
+    color: #FFF;
+    align-self: center;
 }
 
+.category-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0;
+}
+ 
 .category-container {
     display: none;
 }
 
+
+/******** ACTIVE CLASS ************/
+
+    .mobile-view {
+        width: 75%;
+        position: absolute;
+        left: 0;
+        padding: 0 .6em;
+        background: #607C76;
+        opacity: 95%;
+        display: none;
+    }
+
+    .category-list:last-child {
+        margin-bottom: 1em;
+    }
+
+    .mobile-view.active {
+        display: block;
+    }
+        
+/******** ACTIVE CLASS ************/
+
+
 .category-list {
-    font-size: .8rem;
-    color: #2A2A2A;
-    font-weight: 500;
+    font-size: .9rem;
+    color: #FFF;
+    font-weight: 300;
     line-height: 2em;
-    text-transform: capitalize; 
-    border-right: 1px solid #CCCCCC;
+    text-transform: capitalize;
+    opacity: 95%;
 }
 
 .product-container {
@@ -276,7 +315,6 @@ img {
 .fa-star-half-alt {
     font-size: .8rem;
     color: #F7630C;
-    opacity: 80%;
 }
 
 .pro-price {
@@ -402,6 +440,17 @@ footer {
         margin: 0 auto;
     }
 
+    .mobile-view,
+    .mobile-menu {
+        display: none;
+    }
+
+    .category-list {
+        font-size: .9rem;
+        color: #2A2A2A;
+        border-right: 1px solid #CCCCCC;
+    }
+
     .body-container {
         margin-bottom: 4em;
      }
@@ -452,5 +501,6 @@ footer {
     .footer-wrapper {
         flex-direction: row;
     }
+
 }
 
