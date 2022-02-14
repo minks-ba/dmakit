@@ -271,7 +271,7 @@ img {
 
     .mobile-view.active {
         display: block;
-        height: 20em;
+        max-height: 20em;
         overflow: scroll;
     }
         
