@@ -221,6 +221,8 @@ img {
 .category-bg {
     margin-bottom: 1em;
     background-color: #607C76;
+    position: sticky;
+    top: 0;
 }
 
 .mobile-container {
@@ -252,7 +254,6 @@ img {
     display: none;
 }
 
-
 /******** ACTIVE CLASS ************/
 
     .mobile-view {
@@ -263,6 +264,7 @@ img {
         background: #607C76;
         opacity: 95%;
         display: none;
+        transition: 1s;
     }
 
     .category-list:last-child {
@@ -271,12 +273,11 @@ img {
 
     .mobile-view.active {
         display: block;
-        max-height: 20em;
+        max-height: 22em;
         overflow: scroll;
     }
         
 /******** ACTIVE CLASS ************/
-
 
 .category-list {
     font-size: .9rem;
@@ -397,19 +398,6 @@ footer {
     cursor: pointer;
 }
 
-.nav-item:hover,
-.category-list:hover,
-.product-advert p:hover {
-    cursor: pointer;
-    color: #F7630C;
-}
-
-.hero-btn:hover {
-    color: #2A4F48;
-    background-color: #F6F6F6;
-    border: 1px solid #2A4F48;
-}
-
 .img-con:hover, .shop-now:hover, 
 .category-img:hover, .pro-title:hover {
     cursor: pointer;
@@ -440,6 +428,10 @@ footer {
     .small-container {
         max-width: 1300px;
         margin: 0 auto;
+    }
+
+    .category-bg {
+        position: relative;
     }
 
     .mobile-view,
@@ -502,6 +494,19 @@ footer {
 
     .footer-wrapper {
         flex-direction: row;
+    }
+
+    .nav-item:hover,
+    .category-list:hover,
+    .product-advert p:hover {
+        cursor: pointer;
+        color: #F7630C;
+    }
+
+    .hero-btn:hover {
+        color: #2A4F48;
+        background-color: #F6F6F6;
+        border: 1px solid #2A4F48;
     }
 
 }
