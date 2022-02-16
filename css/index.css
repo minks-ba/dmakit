@@ -228,6 +228,7 @@ img {
 .mobile-container {
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 
 .category-title {
@@ -239,9 +240,11 @@ img {
 }
 
 .mobile-menu {
-    font-size: 1.8rem;
-    color: #FFF;
-    align-self: center;
+    width: 30px;
+    background-image: url(../icons/menu_white_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.8rem;
 }
 
 .category-wrapper {
@@ -262,21 +265,24 @@ img {
         left: 0;
         padding: 0 .6em;
         background: #607C76;
-        opacity: 95%;
+        opacity: 95%; 
         display: none;
-        transition: 1s;
     }
 
     .category-list:last-child {
         margin-bottom: 1em;
     }
 
-    .mobile-view.active {
+    .mobile-view[data-visible="true"] {
         display: block;
         max-height: 22em;
         overflow: scroll;
     }
-        
+
+    .mobile-menu[aria-expanded="true"] {
+        background-image: url(../icons/close_white_24dp.svg);
+    }
+    
 /******** ACTIVE CLASS ************/
 
 .category-list {
