@@ -106,10 +106,10 @@ a {
     align-items: center;
 }
 
-  .col-2 h2 {
-        font-size: 2rem;
-        margin-bottom: 1em;
-    }
+.col-2 h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
 
 .hero-title p {
     font-size: 14px;
@@ -327,10 +327,81 @@ img {
 }
 
 .pro-price {
-    color: #000;
+    color: #2A2A2A;
     padding-bottom: 1em;
     margin-top: .5rem;
     font-weight: 500;
+}
+
+.product-detail-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.product-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 350px;
+}
+
+.product-img {
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.product-small-img {
+    display: flex;
+    margin-top: 2em;
+}
+
+.product-detail-title {
+    margin-top: 1em;
+}
+
+.product-price {
+    color: #607C76;
+    margin: 1em 0;
+    font-weight: 800;
+}
+
+.product-contact {
+    margin: 2em 0;
+}
+
+.contact-title {
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.contact-detail {
+    line-height: 1.8em;
+}
+
+.fa-location-dot {
+    font-size: 1.2rem;
+}
+
+.contact-icon {
+    margin-right: 1em;
+    color: #00A082;
+}
+
+.product-payment {
+    margin-top: 1em;
+}
+
+.payment-icons {
+    display: flex;
+    margin-top: 1em;
+}
+
+.payment-icon-img {
+    height: 40px;
+    width: 60px;
+    padding-right: 1em;
 }
 
 /*---Electronic Category End---*/
@@ -382,11 +453,11 @@ footer {
     margin-right: .1em;
 }
 
-.fa-phone-alt {
+.fa-phone {
     margin: .5em 0;
 }
 
-.fa-envelope, .fa-phone-alt{
+.fa-envelope, .fa-phone {
     font-size: 1rem;
 }
 
@@ -400,7 +471,7 @@ footer {
 }
 
 .btn:hover, .fab:hover, 
-.hero-btn:hover, .pro-img:hover {
+.pro-img:hover {
     cursor: pointer;
 }
 
@@ -446,8 +517,10 @@ footer {
     }
 
     .category-list {
-        font-size: .9rem;
-        color: #2A2A2A;
+        font-size: 14px;
+        color: #000;
+        font-weight: 450;
+        line-height: 1.9em;
         border-right: 1px solid #CCCCCC;
     }
 
@@ -498,8 +571,29 @@ footer {
         width: 260px;
     }
 
+    .product-detail-container {
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .pro-detail-wrapper {
+        max-width: 450px;
+        margin-left: 5em;
+    }
+
+    .product-detail-title {
+        margin-top: 0;
+    }
+
     .footer-wrapper {
         flex-direction: row;
+    }
+
+    .hero-btn {
+        transition: backgroun;
     }
 
     .nav-item:hover,
@@ -511,8 +605,10 @@ footer {
 
     .hero-btn:hover {
         color: #2A4F48;
-        background-color: #F6F6F6;
+        background-color: #fff;
         border: 1px solid #2A4F48;
+        cursor: pointer;
+        transition: background-color 0.5s;
     }
 
 }
