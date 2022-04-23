@@ -404,6 +404,17 @@ img {
     padding-right: 1em;
 }
 
+.product-back-btn {
+    color: #607C76;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.product-back-btn:hover {
+    color: #00A082;
+}
+
 /*---Electronic Category End---*/
 
 footer {
@@ -576,7 +587,7 @@ footer {
         align-content: center;
         justify-content: center;
         margin-top: 3em;
-        margin-bottom: 3em;
+        margin-bottom: 2em;
     }
 
     .pro-detail-wrapper {
