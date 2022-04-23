@@ -486,8 +486,7 @@ footer {
     cursor: pointer;
 }
 
-.img-con:hover, .shop-now:hover, 
-.category-img:hover, .pro-title:hover {
+.shop-now:hover, .category-img:hover, .pro-title:hover {
     cursor: pointer;
     text-decoration: underline;
 }
