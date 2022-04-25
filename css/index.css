@@ -131,6 +131,7 @@ img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+    user-select: none;
 }
 
 .hero-btn {
@@ -407,13 +408,43 @@ img {
 .product-back-btn {
     color: #607C76;
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
+    margin: 2em 0;
 }
 
 .product-back-btn:hover {
     color: #00A082;
 }
+
+.product-spec-title {
+    color: #607C76;
+    margin-bottom: 1em;
+}
+
+.table-container {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.table-container tr {
+    border: 1px solid #DFE4E3;
+}
+
+.table-container tr td {
+    font-size: 14px;
+    color: #2A2A2A;
+    padding: 5px;
+    word-break: break-all;
+}
+
+.table-container tr:nth-child(odd) {
+    background-color: #DFE4E3;
+}
+
+.table-container tr td:nth-child(1) {
+    font-weight: 450;
+}
+
 
 /*---Electronic Category End---*/
 
@@ -508,17 +539,13 @@ footer {
 @media (min-width: 850px) {
 
     .banner {
-        padding: 1em;
+        padding: 2em;
         border: 1px solid #F6F6F6;
     }
     
     .small-container {
         max-width: 1300px;
         margin: 0 auto;
-    }
-
-    .category-bg {
-        position: relative;
     }
 
     .mobile-view,
