@@ -235,9 +235,13 @@ img {
 .category-title {
     font-size: 1.2rem;
     color: #FFF;
-    text-transform: capitalize;
     letter-spacing: .1em;
     padding: .5em 0;
+}
+
+.sub-category-title {
+    font-size: 14px;
+    opacity: 75%;
 }
 
 .mobile-menu {
@@ -417,7 +421,7 @@ img {
 
 .product-spec-title {
     color: #607C76;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
 .table-container {
@@ -445,6 +449,9 @@ img {
     font-weight: 450;
 }
 
+a:focus-visible {
+    display: none;
+}
 
 /*---Electronic Category End---*/
 
