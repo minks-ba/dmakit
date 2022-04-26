@@ -449,8 +449,8 @@ img {
     font-weight: 450;
 }
 
-a:focus-visible {
-    display: none;
+a:focus {
+    outline: none;
 }
 
 /*---Electronic Category End---*/
