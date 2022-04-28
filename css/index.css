@@ -452,11 +452,19 @@ img {
 a:focus{
     outline: none;
     box-shadow: none;
+    border: none;
+}
+
+a {
+    outline: none;
+    box-shadow: none;
+    border: none;
 }
 
 a img {
     outline: none;
     box-shadow: none;
+    border: none;
 }
 
 /*---Electronic Category End---*/
