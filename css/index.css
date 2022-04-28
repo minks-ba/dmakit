@@ -163,7 +163,7 @@ img {
 
 .col-4 {
     flex-basis: 20%;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 
 .col-4-none {
@@ -172,8 +172,8 @@ img {
 
 .img-con {
     margin: auto;
-    height: 205px;
-    width: 174px;
+    height: 179px;
+    width: 150px;
 }
 
 .img-con p {
@@ -236,13 +236,9 @@ img {
 .category-title {
     font-size: 1.2rem;
     color: #FFF;
+    text-transform: capitalize;
     letter-spacing: .1em;
     padding: .5em 0;
-}
-
-.sub-category-title {
-    font-size: 14px;
-    opacity: 75%;
 }
 
 .mobile-menu {
@@ -520,6 +516,10 @@ footer {
 .shop-now:hover, .category-img:hover, .pro-title:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+.img-con-title:hover {
+    color: #2A2A2A;
 }
 
 .footer-list:hover {
