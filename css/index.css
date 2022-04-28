@@ -449,16 +449,14 @@ img {
     font-weight: 450;
 }
 
-a {
+a:focus{
     outline: none;
+    box-shadow: none;
 }
 
 a img {
     outline: none;
-}
-
-img {
-    border: 0;
+    box-shadow: none;
 }
 
 /*---Electronic Category End---*/
