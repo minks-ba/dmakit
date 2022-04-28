@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -447,24 +448,6 @@ img {
 
 .table-container tr td:nth-child(1) {
     font-weight: 450;
-}
-
-a:focus{
-    outline: none;
-    box-shadow: none;
-    border: none;
-}
-
-a {
-    outline: none;
-    box-shadow: none;
-    border: none;
-}
-
-a img {
-    outline: none;
-    box-shadow: none;
-    border: none;
 }
 
 /*---Electronic Category End---*/
