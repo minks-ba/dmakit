@@ -416,10 +416,6 @@ img {
     margin: 2em 0;
 }
 
-.product-back-btn:hover {
-    color: #00A082;
-}
-
 .product-spec-title {
     color: #607C76;
     margin: 1em 0;
@@ -627,6 +623,10 @@ footer {
 
     .product-detail-title {
         margin-top: 0;
+    }
+
+    .product-back-btn:hover {
+        color: #00A082;
     }
 
     .footer-wrapper {
