@@ -225,6 +225,7 @@ img {
     background-color: #607C76;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .mobile-container {
@@ -517,13 +518,6 @@ footer {
     cursor: pointer;
 }
 
-.product-detail-btn:hover {
-    color: #fff;
-    cursor: pointer;
-    background-color: #607C76;
-    transition: background-color 0.5s;
-}
-
 .shop-now:hover, .category-img:hover, .pro-title:hover {
     cursor: pointer;
     text-decoration: underline;
@@ -660,6 +654,13 @@ footer {
         background-color: #fff;
         border: 1px solid #2A4F48;
         cursor: pointer;
+        transition: background-color 0.5s;
+    }
+
+    .product-detail-btn:hover {
+        color: #fff;
+        cursor: pointer;
+        background-color: #607C76;
         transition: background-color 0.5s;
     }
 
