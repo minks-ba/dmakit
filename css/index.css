@@ -514,11 +514,11 @@ footer {
 }
 
 .btn:hover, .fab:hover, 
-.pro-img:hover {
+.pro-img:hover, .pro-title {
     cursor: pointer;
 }
 
-.shop-now:hover, .category-img:hover, .pro-title:hover {
+.shop-now:hover, .category-img:hover {
     cursor: pointer;
     text-decoration: underline;
 }
