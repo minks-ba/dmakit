@@ -330,7 +330,6 @@ img {
 .pro-title {
     font-size: 14px;
     font-weight: 500;
-    color: #2A2A2A;
     margin-top: .5em;
 }
 
@@ -523,8 +522,13 @@ footer {
 }
 
 .btn:hover, .fab:hover, 
-.pro-img:hover, .pro-title {
+.pro-img:hover {
     cursor: pointer;
+}
+
+.pro-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .shop-now:hover, .category-img:hover {
