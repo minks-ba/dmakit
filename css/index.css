@@ -459,6 +459,10 @@ img {
     font-weight: 450;
 }
 
+.active-category-list {
+    color: #F7630C;
+}
+
 /*---Electronic Category End---*/
 
 footer {
@@ -684,6 +688,10 @@ footer {
         cursor: pointer;
         text-decoration: underline;
         transition: background-color 0.5s;
+    }
+
+    .active-category-list {
+        color: #F7630C;
     }
 
 }
