@@ -26,6 +26,10 @@ p {
     padding: 1em 0;
 }
 
+.hero-border {
+    border-bottom: 1px solid #6663631f;
+}
+
 .header{
     width: 100%;
     display: flex;
@@ -82,9 +86,13 @@ a {
     font-size: .9rem;
     color: #2A4F48;
     list-style: none;
-    margin: 0 .5em;
+    margin: 0 .6em;
     text-transform: capitalize;
     font-weight: 500;
+}
+
+.nav-item-last {
+    color: #00A082;
 }
 
 .home, .electronic, .clothing, .automobile,
@@ -563,11 +571,14 @@ footer {
     }
 
     .nav-item {
-        margin: 0 .7rem;
+        margin: 0 .8rem;
     }
 
     .nav-item-last {
-        margin-right: 0;
+        color: #00A082;
+        padding: .3em .5em;
+        border: 1px solid #00A082;
+        border-radius: 1em;
     }
 
     .hero-wrapper {
@@ -600,12 +611,17 @@ footer {
         gap: 2em;
     }
 
+    .hero-border {
+        border-bottom: none;
+    }
+
     .header {
         max-width: 100%;
     }
 
     .hero-container {
       flex-direction: row;
+      margin-top: 1em;
     }
 
     .col-2 h2 {
@@ -674,6 +690,11 @@ footer {
     .product-advert p:hover {
         cursor: pointer;
         color: #F7630C;
+    }
+
+    .nav-item-last:hover {
+        color: #0DC094;
+        border-color: #0DC094;
     }
 
     .hero-btn:hover {
