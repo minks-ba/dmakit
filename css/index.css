@@ -83,7 +83,7 @@ a {
 }
 
 .nav-item {
-    font-size: .9rem;
+    font-size: .8rem;
     color: #2A4F48;
     list-style: none;
     margin: 0 .6em;
@@ -571,6 +571,7 @@ footer {
     }
 
     .nav-item {
+        font-size: .9rem;
         margin: 0 .8rem;
     }
 
