@@ -22,8 +22,8 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1em;
-    padding-top: 1em;
+    gap: 1.5em;
+    padding: 1em 0;
 }
 
 .header{
@@ -39,6 +39,8 @@ a {
     font-size: 1.8rem;
     font-weight: 700;
     color: #F7630C;
+    border-left: 4px dashed;
+    padding: 0 .4em;
 }
 
 .afro {
@@ -67,13 +69,6 @@ a {
     border-bottom-right-radius: 3px;
 }
 
-/*
-.nav-content,
-.small-container {
-    font-family: 'Poppins', sans-serif;
-}
-*/
-
 .fa-utensils {
     font-size: 1.3rem;
 }
@@ -82,14 +77,14 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1em 0;
+    align-items: center;
 }
 
 .nav-item {
-    font-size: .8em;
-    color: #282C34;
+    font-size: .9rem;
+    color: #2A4F48;
     list-style: none;
-    margin: 0 .8em;
+    margin: 0 .6em;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -117,7 +112,7 @@ a {
 }
 
 .hero-title p {
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .hero-container * {
@@ -530,13 +525,8 @@ footer {
 }
 
 .btn:hover, .fab:hover, 
-.pro-img:hover {
+.pro-img:hover, .pro-title:hover {
     cursor: pointer;
-}
-
-.pro-title:hover {
-    cursor: pointer;
-    text-decoration: underline;
 }
 
 .shop-now:hover, .category-img:hover {
@@ -545,7 +535,7 @@ footer {
 }
 
 .img-con-title:hover {
-    color: #2A2A2A;
+    color: #2A4F48;
 }
 
 .footer-list:hover {
@@ -572,6 +562,14 @@ footer {
     .small-container {
         max-width: 1300px;
         margin: 0 auto;
+    }
+
+    .nav-item {
+        margin: 0 .7rem;
+    }
+
+    .hero-wrapper {
+        padding-top: 1.5em;
     }
 
     .mobile-view,
