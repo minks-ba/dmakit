@@ -76,6 +76,10 @@ a {
     font-size: 1.3rem;
 }
 
+.nav-modifier {
+    padding-top: 1em;
+}
+
 .nav-content {
     display: flex;
     justify-content: center;
@@ -90,10 +94,6 @@ a {
     margin: 0 .6em;
     text-transform: capitalize;
     font-weight: 500;
-}
-
-.nav-item-last {
-    color: #00A082;
 }
 
 .home, .electronic, .clothing, .automobile,
@@ -571,6 +571,11 @@ footer {
         margin: 0 auto;
     }
 
+    .nav-modifier {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+
     .nav-item {
         font-size: .9rem;
         margin: 0 .8rem;
@@ -578,9 +583,10 @@ footer {
 
     .nav-item-last {
         color: #00A082;
-        padding: .3em .5em;
+        padding: .3em .6em;
         border: 1px solid #00A082;
         border-radius: 1em;
+        margin-right: 0;
     }
 
     .hero-wrapper {
