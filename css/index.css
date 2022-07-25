@@ -312,7 +312,7 @@ img {
 
 .product-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: .2em;
     padding-top: .5em;
     padding-bottom: .8em;
@@ -326,6 +326,7 @@ img {
 }
 
 .pro-img {
+    width: 95%;
     justify-self: center;
     align-self: center;
 }
@@ -532,9 +533,13 @@ footer {
     font-size: .8rem;
 }
 
-.btn:hover, .fab:hover, 
-.pro-img:hover, .pro-title:hover {
+.btn:hover, .fab:hover,  
+.pro-title:hover {
     cursor: pointer;
+}
+
+.pro-title:hover {
+    text-decoration: underline;
 }
 
 .shop-now:hover, .category-img:hover {
@@ -660,9 +665,14 @@ footer {
     }
 
     .product-item {
+        flex-direction: column;
         flex-basis: 24%;
         border: 1px solid #CCC;
         border-radius: 6px;
+    }
+
+    .pro-img {
+        width: 100%;
     }
 
     .product-detail-container {
