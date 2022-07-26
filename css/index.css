@@ -533,10 +533,6 @@ footer {
     cursor: pointer;
 }
 
-.pro-title:hover {
-    text-decoration: underline;
-}
-
 .shop-now:hover, .category-img:hover {
     cursor: pointer;
     text-decoration: underline;
@@ -700,6 +696,10 @@ footer {
     .product-advert p:hover {
         cursor: pointer;
         color: #F7630C;
+    }
+
+    .pro-title:hover {
+        text-decoration: underline;
     }
 
     .nav-item-last:hover {
