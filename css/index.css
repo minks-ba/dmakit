@@ -23,7 +23,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1em;
-    padding: 1em 0;
+    padding-bottom: 1em;
 }
 
 .hero-border {
@@ -611,6 +611,7 @@ footer {
         flex-wrap: nowrap;
         justify-content: space-between;
         gap: 2em;
+        padding: 1em 0;
     }
 
     .hero-border {
