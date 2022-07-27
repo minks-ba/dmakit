@@ -166,11 +166,12 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: .5em;
+    gap: 1em;
 }
 
 .flex-container-modifier {
     justify-content: space-between;
+    gap: .5em;
 }
 
 .col-4 {
@@ -334,7 +335,6 @@ img {
     font-size: 14px;
     font-weight: 500;
     margin-top: .5em;
-    user-select: none;
 }
 
 .fa-star,
@@ -380,9 +380,10 @@ img {
 }
 
 .product-price {
-    color: #607C76;
-    margin: 1em 0;
-    font-weight: 800;
+    font-size: 1.2rem;
+    color: #2A4F48;
+    margin: .8em 0;
+    font-weight: 550;
 }
 
 .product-contact {
@@ -533,7 +534,7 @@ footer {
     cursor: pointer;
 }
 
-.shop-now:hover, .category-img:hover {
+.shop-now:hover {
     cursor: pointer;
     text-decoration: underline;
 }
