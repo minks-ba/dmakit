@@ -161,6 +161,10 @@ img {
     margin: 2em 0;
 }
 
+.title-arrival {
+    margin-bottom: 1.5em;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -181,7 +185,7 @@ img {
 
 .img-con {
     margin: auto;
-    height: 179px;
+    height: 180px;
     width: 150px;
 }
 
@@ -731,15 +735,11 @@ footer {
 
 .swiper {
     width: 100%;
-    height: 300px;
-    margin-top: 2em;
-  }
+    height: 250px;
+    margin-top: .5em;
+}
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -752,7 +752,6 @@ footer {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    cursor: grab;
 }
 
 
