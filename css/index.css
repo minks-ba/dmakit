@@ -195,14 +195,14 @@ img {
     gap: 1em;
 }
 
-.col-4 {
+/* .col-4 {
     flex-basis: 20%;
     margin-bottom: 1.5em;
-}
+} */
 
 .img-con {
-    height: 210px;
-    width: 180px;
+    height: 220px;
+    width: 190px;
 }
 
 /*---New Arrivals End---*/
