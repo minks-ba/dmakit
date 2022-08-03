@@ -162,6 +162,7 @@ img {
 }
 
 .title-arrival {
+    margin-top: 1.5em;
     margin-bottom: 0;
 }
 
@@ -605,6 +606,10 @@ footer {
     .hero-wrapper {
         padding-top: 1.5em;
     }
+
+    .title-arrival {
+        margin-top: 2em;
+    }    
 
     .img-con {
         height: 180px;
