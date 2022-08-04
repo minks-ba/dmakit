@@ -187,6 +187,10 @@ img {
     align-items: center;
 }
 
+.display-navigation {
+    display: none;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -615,6 +619,10 @@ footer {
     .img-con {
         height: 180px;
         width: 150px;
+    }
+
+    .display-navigation {
+        display: block;
     }
 
     .mobile-view,
