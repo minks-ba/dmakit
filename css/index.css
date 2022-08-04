@@ -157,7 +157,7 @@ img {
 
 .title {
     font-size: 1.3rem;
-    color: #282C34;
+    color: #000;
     margin: 2em 0;
 }
 
@@ -223,13 +223,13 @@ img {
 }
 
 .product-title {
-    color: #282C34;
+    color: #000;
     font-weight: 550;
     margin-bottom: 2em;
 }
 
 .shop-now {
-    font-size: .8rem;
+    font-size: .9rem;
     color:#2A4F48;
     font-weight: 450;
 }
@@ -353,6 +353,7 @@ img {
 
 .pro-title {
     font-size: 14px;
+    color: #282C34;
     font-weight: 500;
     margin-top: .5em;
 }
