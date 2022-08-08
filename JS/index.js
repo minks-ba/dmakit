@@ -35,8 +35,8 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
 
     autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
+      delay: 2500,
+      disableOnInteraction: false,
     },
 
     pagination: {
@@ -45,8 +45,8 @@ var swiper = new Swiper(".mySwiper", {
     },
 
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
 
     breakpoints: {

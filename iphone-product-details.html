@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     </head>
     <body>
         <div class="small-container nav-modifier">
@@ -60,7 +61,7 @@
         <div class="small-container">
             <div class="product-detail-container">
                 <div class="product-img-wrapper">
-                    <div class="product-img">
+                    <!-- <div class="product-img">
                         <img src="./Project_Images/Asorted/Images PNG/Iphone.png" alt="iphone">
                     </div>
                     <div class="product-small-img">
@@ -68,7 +69,23 @@
                         <div><img src="./Project_Images/Asorted/Images PNG/Iphone.png"></div>
                         <div><img src="./Project_Images/Asorted/Images PNG/Iphone.png"></div>
                         <div><img src="./Project_Images/Asorted/Images PNG/Iphone.png"></div>
+                    </div> -->
+
+                    <div class="swiper mySwiper swiper-modifier">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="./Project_Images/Asorted/Images PNG/Iphone.png"></div>
+                          <div class="swiper-slide"><img src="./Project_Images/Asorted/Images PNG/Iphone.png"></div>
+                          <div class="swiper-slide"><img src="./Project_Images/Asorted/Images PNG/Iphone.png"></div>
+                          <div class="swiper-slide"><img src="./Project_Images/Asorted/Images PNG/Iphone.png"></div>
+                          <div class="swiper-slide"><img src="./Project_Images/Asorted/Images PNG/Iphone.png"></div>
+                        </div>
+                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
+                        <div class="paginator">
+                            <div class="swiper-pagination"></div>
+                        </div> 
                     </div>
+
                 </div>
                 <div class="pro-detail-wrapper">
                     <h1 class="product-detail-title">iPhone 13 Pro Max</h1>
@@ -248,7 +265,8 @@
             </div>
             <a href="electronics.html"><p class="product-back-btn"><i class="fa-solid fa-arrow-left-long"></i> Back</p></a>
         </div>
-        <script src="./JS/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="./JS/product-des.js"></script>
     </body>
     <footer>
         <div class="small-container">
