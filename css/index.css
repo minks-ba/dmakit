@@ -402,6 +402,7 @@ img {
 .product-img-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-self: flex-start;
     max-width: 350px;
 }
