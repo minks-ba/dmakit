@@ -202,8 +202,8 @@ img {
 .paginator-modifier {
     border: 1px solid #555;
     border-radius: 1em;
-    background-color: rgba(85, 85, 85, 0.137);
-} 
+    background-color: #CCC;
+}
 
 .flex-container {
     display: flex;
@@ -396,12 +396,12 @@ img {
     padding: 2em 0;
 }
 
-.product-img-wrapper {
+/* .product-img-wrapper {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     max-width: 350px;
-}
+} */
 
 .product-img {
     max-height: 350px;
@@ -723,7 +723,7 @@ footer {
     }
 
     .product-img-wrapper {
-        max-width: 370px;
+        max-width: 350px;
     }
 
     .pro-detail-wrapper {
