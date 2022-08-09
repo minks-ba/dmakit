@@ -197,15 +197,12 @@ img {
 
 .paginator {
     margin-top: 4em;
-    position: relative;
-    left: 8.5em;
 }
 
 .paginator-modifier {
     border: 1px solid #555;
     border-radius: 1em;
     background-color: rgba(85, 85, 85, 0.137);
-    max-width: 25%;
 } 
 
 .flex-container {
