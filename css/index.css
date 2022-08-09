@@ -203,6 +203,7 @@ img {
     border: 1px solid #2a4f48b2;
     border-radius: 1em;
     background-color: #DFE4E3;
+    max-width: 4em;
 }
 
 .flex-container {
