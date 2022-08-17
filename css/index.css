@@ -197,14 +197,14 @@ img {
 .paginator {
     margin-top: 4em;
     position: relative;
-    left: 9em;
+    left: 9.5em;
 }
 
 .paginator-modifier {
-    border: 1px solid #2a4f48b2;
-    border-radius: 1em;
-    background-color: #DFE4E3;
-    max-width: 4em;
+    border-bottom: 3px solid #2a4f48b2;
+    /* border-radius: 1em;
+    background-color: #DFE4E3;*/
+    max-width: 3em; 
     position: absolute;
 }
 
@@ -590,11 +590,6 @@ footer {
     .footer-wrapper {
         flex-direction: row;
     }
-
-    .product-img-wrapper {
-        max-width: 400px;
-    } 
-  
 }
 
 @media (min-width: 850px) {
@@ -723,12 +718,9 @@ footer {
 
     .product-detail-container {
         flex-direction: row;
+        align-items: flex-start;
         margin: 2em 0;
     }
-
-    .product-img-wrapper {
-        max-width: 400px;
-    } 
 
     .pro-detail-wrapper {
         max-width: 450px;
