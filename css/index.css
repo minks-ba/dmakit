@@ -499,8 +499,8 @@ img {
 /*---Electronic Category End---*/
 
 footer {
-    background-color: #E7E9EB;
     padding: 2.5em 0;
+    border-top: 2px solid #f3f7f6;
 }
 
 .footer-wrapper {
