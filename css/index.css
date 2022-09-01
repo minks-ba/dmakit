@@ -500,7 +500,8 @@ img {
 
 footer {
     border-top: 2px solid #F6F6F6;
-    padding: 2em 0;
+    background-color: #E7E9EB;
+    padding: 2.5em 0;
 }
 
 .footer-wrapper {
@@ -509,9 +510,9 @@ footer {
     flex-direction: column;
 }
 
-.footer-col {
+/* .footer-col {
     flex-basis: 25%;
-}
+} */
 
 .footer-mag {
     margin-bottom: 1.5em;
@@ -523,7 +524,7 @@ footer {
 
 .footer-col h3 {
     font-size: 1rem;
-    color: #555;
+    color: #2A4F48;
     font-weight: 500;
     margin-bottom: .5em;
 }
@@ -534,9 +535,11 @@ footer {
 }
 
 .fa-copyright {
-    color: #555;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    color: #2A4F48;
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+    font-weight: 550;
 }
 
 .fab {
