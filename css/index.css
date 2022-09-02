@@ -584,22 +584,6 @@ footer {
     font-size: .8rem;
 }
 
-.btn:hover, .fab:hover,  
-.pro-title:hover {
-    cursor: pointer;
-}
-
-.shop-now:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.footer-list:hover {
-    cursor: pointer;
-    color: #555;
-    text-decoration: underline;
-}
-
 @media (min-width: 500px) {
     
     .footer-wrapper {
@@ -790,6 +774,22 @@ footer {
         border: 1px solid #2A4F48;
         cursor: pointer;
         transition: background-color 0.5s;
+    }
+    
+    .btn:hover, .fab:hover,  
+    .pro-title:hover {
+        cursor: pointer;
+    }
+
+    .shop-now:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .footer-list:hover {
+        cursor: pointer;
+        color: #555;
+        text-decoration: underline;
     }
 
     /* .product-detail-btn:hover {
