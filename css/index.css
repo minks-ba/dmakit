@@ -534,18 +534,37 @@ footer {
 }
 
 .fa-copyright {
+    font-size: 14px;
     color: #2A4F48;
-    margin-top: 2em;
+    margin-top: 2.5em;
     width: 100%;
     text-align: center;
-    font-weight: 550;
     opacity: 50%;
+}
+
+.copyright-edit {
+    font-family: sans-serif;
 }
 
 .fab {
     font-size: 1.5rem;
     margin-top: .5rem;
     margin-right: .1em;
+}
+
+.facebook {
+    color: #4867AA;
+    background-color: #fff;
+}
+
+.twitter {
+    color: #1DA1F2;
+    background-color: #fff;
+}
+
+.whatsapp {
+    color: #30BB44;
+    background-color: #FFF;
 }
 
 .fa-phone {
