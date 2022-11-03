@@ -118,6 +118,10 @@ a {
     margin-bottom: 1em;
 }
 
+.hero-title {
+    margin-bottom: 1em;
+}
+
 .hero-title p {
     font-size: 1rem;
 }
@@ -143,14 +147,13 @@ img {
 
 .hero-btn {
     font-size: 1rem;
-    color: #fff;
-    font-weight: 550;
-    margin-top: 1.5em;
+    color: #00A082;
+    font-weight: 600;
+    margin-top: 2em;
     padding: .5em 1.5em;
     cursor: pointer;
     border-radius: 5px;
-    border: 1px solid #00A082;
-    background-color: #00A082;
+    border: 2px solid #00A082;
 }
 
 /*---New Arrivals Start---*/
@@ -771,7 +774,7 @@ footer {
     .hero-btn:hover {
         color: #2A4F48;
         background-color: #fff;
-        border: 1px solid #2A4F48;
+        border: 2px solid #2A4F48;
         cursor: pointer;
         transition: background-color 0.5s;
     }
