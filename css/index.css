@@ -147,13 +147,14 @@ img {
 
 .hero-btn {
     font-size: 1rem;
-    color: #00A082;
+    color: #fff;
     font-weight: 600;
     margin-top: 2em;
     padding: .5em 1.5em;
     cursor: pointer;
     border-radius: 5px;
     border: 2px solid #00A082;
+    background-color: #00A082;
 }
 
 /*---New Arrivals Start---*/
