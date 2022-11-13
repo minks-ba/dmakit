@@ -461,7 +461,9 @@ img {
     gap: 1em;
 }
 
-.buy-now {
+
+
+.buy-now, .add-to-cart {
     font-weight: 600;
     width: 100%;
     padding: .8em;
@@ -469,6 +471,11 @@ img {
     border: 1px solid goldenrod;
     border-radius: 1em;
     background-color: goldenrod;
+}
+
+.add-to-cart {
+    border: 1px solid #FFCA63;
+    background-color: #FFCA63;
 }
 
 .payment-icons {
@@ -812,7 +819,7 @@ footer {
         text-decoration: underline;
     }
 
-    .buy-now:hover {
+    .buy-now:hover, .add-to-cart:hover {
         color: #2A4F48;
         cursor: pointer;
         text-decoration: underline;
