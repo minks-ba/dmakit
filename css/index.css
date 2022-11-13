@@ -210,6 +210,10 @@ img {
     position: absolute;
 }
 
+.available-stock {
+    color: red;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -423,6 +427,11 @@ img {
     font-weight: 550;
 }
 
+.pro-description-wrapper p, 
+.contact-detail, .contact-title {
+    color: #000;
+}
+
 .product-contact {
     margin: 2em 0;
 }
@@ -447,6 +456,19 @@ img {
 
 .product-payment {
     margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.buy-now {
+    font-weight: 600;
+    width: 100%;
+    padding: .8em;
+    text-align: center;
+    border: 1px solid goldenrod;
+    border-radius: 1em;
+    background-color: goldenrod;
 }
 
 .payment-icons {
@@ -786,6 +808,12 @@ footer {
     }
 
     .shop-now:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .buy-now:hover {
+        color: #2A4F48;
         cursor: pointer;
         text-decoration: underline;
     }
