@@ -479,7 +479,7 @@ img {
 
 .payment-icons {
     display: flex;
-    /* margin-top: 1em; */
+    margin-bottom: 1.5em;
 }
 
 .payment-icon-img {
@@ -819,11 +819,11 @@ footer {
         text-decoration: underline;
     }
 
-    .buy-now:hover, .add-to-cart:hover {
+    /* .buy-now:hover, .add-to-cart:hover {
         color: #2A4F48;
         cursor: pointer;
         text-decoration: underline;
-    }
+    } */
 
     .footer-list:hover {
         cursor: pointer;
