@@ -458,7 +458,6 @@ img {
     margin-top: 1em;
     display: flex;
     flex-direction: column;
-    gap: 1em;
 }
 
 
@@ -486,6 +485,7 @@ img {
 .payment-icon-img {
     height: 40px;
     width: 60px;
+    margin-top: .5em;
     padding-right: 1em;
 }
 
