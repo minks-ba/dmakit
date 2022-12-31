@@ -433,7 +433,7 @@ img {
 }
 
 .product-contact {
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 .contact-title {
@@ -493,11 +493,6 @@ img {
     color: #607C76;
     text-align: center;
     margin: 2em 0;
-}
-
-.product-spec-title {
-    /* color: #607C76; */
-    margin: 1em 0;
 }
 
 .table-container {
@@ -693,9 +688,9 @@ footer {
 
     .category-list {
         font-size: 14px;
-        color: #000;
-        font-weight: 450;
-        line-height: 1.9em;
+        color: #282C34;
+        font-weight: 400;
+        line-height: 1.8em;
     }
 
     .body-container {
@@ -761,7 +756,6 @@ footer {
 
     .product-detail-container {
         flex-direction: row;
-        margin: 2em 0;
     }
 
     .pro-detail-wrapper {
