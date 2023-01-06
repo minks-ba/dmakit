@@ -29,6 +29,22 @@ function search() {
 };
 
 
+
+
+let counterNum = 0;
+let countClick = document.getElementById("count");
+
+
+function counter() {
+  counterNum++;
+  countClick.textContent = counterNum;
+}
+
+
+
+
+
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
@@ -64,6 +80,11 @@ var swiper = new Swiper(".mySwiper", {
       }
     }
 });
+
+
+
+
+
 
 
  
