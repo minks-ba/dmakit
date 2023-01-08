@@ -402,6 +402,10 @@ img {
     opacity: 80%;
 }
 
+.eye-counter {
+    margin-bottom: 1em;
+}
+
 .counter-wrapper p {
     font-size: .8em;
 }
