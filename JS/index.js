@@ -1,3 +1,17 @@
+const mobileView = document.querySelector(".mobile-view");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+function display() {
+    const visibility = mobileView.getAttribute("data-visible");
+
+    if (visibility === "false") {
+        mobileView.setAttribute("data-visible", true); 
+        mobileMenu.setAttribute("aria-expanded", true);
+    } else {
+        mobileView.setAttribute("data-visible", false);
+        mobileMenu.setAttribute("aria-expanded", false);
+    }
+};
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
@@ -37,24 +51,6 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-
-
-
-
-// const mobileView = document.querySelector(".mobile-view");
-// const mobileMenu = document.querySelector(".mobile-menu");
-
-// function display() {
-//     const visibility = mobileView.getAttribute("data-visible");
-
-//     if (visibility === "false") {
-//         mobileView.setAttribute("data-visible", true); 
-//         mobileMenu.setAttribute("aria-expanded", true);
-//     } else {
-//         mobileView.setAttribute("data-visible", false);
-//         mobileMenu.setAttribute("aria-expanded", false);
-//     }
-// };
 
 // function search() {
 //     let searchQuery = document.querySelector(".search-bar").value.toLowerCase();

@@ -4,6 +4,8 @@ const mobileMenu = document.querySelector(".mobile-menu");
 let counterNum = 0;
 let viewCounter = document.getElementById("view-count");
 
+// Product Counter
+
 function counter() {
   counterNum++;
   if (counterNum > 0) {

@@ -450,7 +450,7 @@ img {
 .pro-description-wrapper p, 
 .contact-detail {
     font-size: 15px;
-    color: #000;
+    color: #282C34;
 }
 
 .product-contact {
@@ -651,6 +651,10 @@ footer {
 
 @media (min-width: 850px) {
 
+    .hero-container {
+        flex-direction: row;
+    }
+
     .banner {
         padding: 1em;
         border: 1px solid #F6F6F6;
@@ -731,7 +735,7 @@ footer {
         max-width: 100%;
     }
 
-    .hero-container {
+    .hero-conpro-descriptiontainer {
       flex-direction: row;
       margin-top: 1em;
     }
@@ -778,6 +782,7 @@ footer {
     }
 
     .pro-detail-wrapper {
+        align-self: flex-start;
         max-width: 450px;
         margin-left: 5em;
     }
