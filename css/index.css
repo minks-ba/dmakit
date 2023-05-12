@@ -450,6 +450,12 @@ img {
     margin-top: .8em;
 }
 
+.stock-status {
+    font-size: 14px;
+    padding-top: .5em;
+    color: green;
+}
+
 .product-price {
     font-size: 1.1rem;
     color: #2A4F48;
