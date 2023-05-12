@@ -225,6 +225,8 @@ img {
 .img-con {
     height: 220px;
     width: 190px;
+    margin: 0 auto;
+    margin-top: 2em;
 }
 
 /*---New Arrivals End---*/
@@ -404,6 +406,14 @@ img {
 
 .counter-wrapper p {
     font-size: .8em;
+}
+
+#view-count {
+    color: green;
+}
+
+.view-count {
+    color: red;
 }
 
 .fa-images {
@@ -694,6 +704,7 @@ footer {
     .img-con {
         height: 180px;
         width: 150px;
+        margin-top: 3em;
     }
 
     .display-navigation {
@@ -778,6 +789,7 @@ footer {
     }
 
     .product-detail-container {
+        margin-top: 1em;
         flex-direction: row;
     }
 
@@ -785,6 +797,7 @@ footer {
         align-self: flex-start;
         max-width: 450px;
         margin-left: 5em;
+        margin-bottom: 1em;
     }
 
     .product-detail-title {
