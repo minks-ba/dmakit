@@ -167,7 +167,7 @@ img {
 
 .title {
     font-size: 1.3rem;
-    color: #000;
+    color: #282C34;
     margin: 2em 0;
 }
 
@@ -667,7 +667,7 @@ footer {
         flex-direction: column;
         flex-basis: 32%;
         border: 1px solid #CCC;
-        border-radius: 6px;
+        /* border-radius: 6px; */
     }
 }
 
@@ -793,7 +793,8 @@ footer {
         flex-direction: column;
         flex-basis: 24%;
         border: 1px solid #CCC;
-        border-radius: 5px;
+        /* border-radius: 5px; */
+        background-color: #F7F7F7;
     }
 
     .pro-img {
