@@ -360,7 +360,7 @@ img {
     display: flex;
     flex-direction: row;
     border-radius: .2em;
-    padding-top: .5em;
+    padding-top: .3em;
     padding-bottom: .8em;
     margin: 0 auto;
     border-bottom: 1px solid #CCC;
@@ -375,6 +375,7 @@ img {
     width: 95%;
     justify-self: center;
     align-self: center;
+    background-color: #F1F1F1;
 }
 
 .pro-description {
@@ -792,13 +793,14 @@ footer {
     .product-item {
         flex-direction: column;
         flex-basis: 24%;
-        border: 1px solid #CCC;
+        border: 1px solid #DFE4E3;
+        padding-top: 0;
         /* border-radius: 5px; */
-        background-color: #F7F7F7;
     }
 
     .pro-img {
         width: 100%;
+        padding: 0.5em 0;
     }
 
     .product-detail-container {
