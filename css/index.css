@@ -356,11 +356,15 @@ img {
     gap: .8em;
 }
 
+.product-container-modifier {
+    margin-top: 0.5em;
+}
+
 .product-item {
     display: flex;
     flex-direction: row;
     border-radius: .2em;
-    padding-top: .3em;
+    padding-top: 0;
     padding-bottom: .8em;
     margin: 0 auto;
     border-bottom: 1px solid #CCC;
