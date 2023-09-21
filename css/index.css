@@ -110,7 +110,8 @@ a {
 .hero-wrapper {
     padding-top: 1em;
     padding-bottom: 1.5em;
-    background-color: #F6F6F6;
+    background: linear-gradient(
+        120deg, #FFF 69%, #CFD7D6 40%);
 }
 
 .hero-container {
