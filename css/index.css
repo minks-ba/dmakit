@@ -520,7 +520,8 @@ img {
 
 .seller p {
     font-size: 14px;
-    color: #000;
+    font-weight: 500;
+    color: #282C34;
     opacity: 90%;
 }
 
