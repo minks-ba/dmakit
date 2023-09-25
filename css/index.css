@@ -206,9 +206,9 @@ img {
 }
 
 .paginator {
-    margin-top: 4em;
     position: relative;
     left: 9.5em;
+    padding: 1.5em;
 }
 
 .paginator-modifier {
@@ -509,13 +509,28 @@ img {
     margin-right: .2em;
 }
 
+.seller {
+    text-align: center;
+    padding: .5em 0;
+    margin-top: 1em;
+    border: 1px solid #FFCA63;
+    border-radius: 0 .5em 0 .5em;
+    background-color: #FFCA63;
+}
+
+.seller p {
+    font-size: 14px;
+    color: #000;
+    opacity: 90%;
+}
+
 .product-payment {
     margin-top: 1em;
     display: flex;
     flex-direction: column;
 }
 
-.add-to-cart {
+/* .add-to-cart {
     color: #2A2A2A;
     font-weight: 600;
     border: 1px solid #FFCA63;
@@ -523,7 +538,7 @@ img {
     background-color: #FFCA63;
     padding: .8em;
     text-align: center;
-}
+} */
 
 .payment-icons {
     display: flex;
@@ -571,7 +586,22 @@ img {
     color: #F7630C;
 }
 
-/*---Electronic Category End---*/
+/*---About US Page---*/
+
+.about-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    background-image: url(../Project_Images/Advertisement/pexels-pixabay-235985.jpg);
+    background-position: center;
+}
+
+.about-title {
+    align-self: center;
+    color: white;
+    
+}
 
 footer {
     padding: 2.5em 0;
