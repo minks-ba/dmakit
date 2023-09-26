@@ -601,7 +601,7 @@ img {
 .about-title {
     align-self: center;
     color: white;
-    
+    letter-spacing: .2em;
 }
 
 footer {
