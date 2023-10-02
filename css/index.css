@@ -632,6 +632,14 @@ img {
     font-weight: bold;
 }
 
+.about-services {
+    background-image: url(../Project_Images/Advertisement/services.png);
+    height: 300px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 footer {
     padding: 2.5em 0;
     border-top: 2px solid #f3f7f6;
