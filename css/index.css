@@ -589,19 +589,47 @@ img {
 
 /*---About US Page---*/
 
-.about-wrapper {
+.about-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 10vh;
-    background-image: url(../Project_Images/Advertisement/pexels-pixabay-235985.jpg);
-    background-position: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+    height: 25vh;
+    background-image: url(../Project_Images/Advertisement/advert.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000;
+    background-blend-mode: screen;
 }
 
-.about-title {
-    align-self: center;
-    color: white;
-    letter-spacing: .2em;
+.about-title h2 {
+    font-size: 2rem;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    align-content: center;
+}
+
+.about-paragraph {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 10em;
+}
+
+.about-paragraph p {
+    color: #2A2A2A;
+}
+
+.about-text {
+    color: #F7630C;
+    text-decoration: underline;
+}
+
+.about-text-1 {
+    font-size: 14px;
+    font-weight: bold;
 }
 
 footer {
